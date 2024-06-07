@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap");
+@import url("./assets/fonts/almaden_sans/stylesheet.css");
+
+:root {
+  --primary-color: #0b5cff;
+  --white-color: #ffffff;
+  --black-color: #00031f;
+  --gray-color: #666484;
+  --hover-white-color: "#0b5cff1a";
+  --dark-blue-color: "#232333";
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: 500;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Alma Sans", "Inter", sans-serif;
+  overflow-x: hidden;
+  color: black;
+}
+
+/* ::-moz-selection {
+  color: white;
+  background: #ffa01186;
+}
+
+::selection {
+  color: white;
+  background: #ffa01186;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .typography-first {
+    @apply text-3xl md:text-4xl lg:text-5xl pb-3 md:pb-7 font-medium font-kurier;
+  }
+  .typography-second {
+    @apply text-xl md:text-2xl lg:text-3xl pb-3 md:pb-7 font-medium;
+  }
+}

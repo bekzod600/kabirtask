@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Alma Sans";
+  src: url("AlmaSans-Light.eot");
+  src: local("Alma Sans Light"), local("AlmaSans-Light"),
+    url("AlmaSans-Light.eot?#iefix") format("embedded-opentype"),
+    url("AlmaSans-Light.woff2") format("woff2"),
+    url("AlmaSans-Light.woff") format("woff"),
+    url("AlmaSans-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alma Sans";
+  src: url("AlmaSans-Thin.eot");
+  src: local("Alma Sans Thin"), local("AlmaSans-Thin"),
+    url("AlmaSans-Thin.eot?#iefix") format("embedded-opentype"),
+    url("AlmaSans-Thin.woff2") format("woff2"),
+    url("AlmaSans-Thin.woff") format("woff"),
+    url("AlmaSans-Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alma Sans";
+  src: url("AlmaSans-Bold.eot");
+  src: local("Alma Sans Bold"), local("AlmaSans-Bold"),
+    url("AlmaSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("AlmaSans-Bold.woff2") format("woff2"),
+    url("AlmaSans-Bold.woff") format("woff"),
+    url("AlmaSans-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alma Sans";
+  src: url("AlmaSans-Regular.eot");
+  src: local("Alma Sans Regular"), local("AlmaSans-Regular"),
+    url("AlmaSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("AlmaSans-Regular.woff2") format("woff2"),
+    url("AlmaSans-Regular.woff") format("woff"),
+    url("AlmaSans-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Alma Sans";
+  src: url("AlmaSans-Heavy.eot");
+  src: local("Alma Sans Heavy"), local("AlmaSans-Heavy"),
+    url("AlmaSans-Heavy.eot?#iefix") format("embedded-opentype"),
+    url("AlmaSans-Heavy.woff2") format("woff2"),
+    url("AlmaSans-Heavy.woff") format("woff"),
+    url("AlmaSans-Heavy.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
